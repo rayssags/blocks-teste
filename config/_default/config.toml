@@ -1,12 +1,11 @@
 baseURL = "https://Balerion-RS.github.io/blocks-teste/"
-relativeURLs = true
 Title = "BLOCKS"
 
 [params]
 themeColor = "ufrj"
 description = "The Dwarf Galaxies Group at the Valongo Observatory, Federal University of Rio de Janeiro."
 copyright = ""
-sidebar_image = "images/b.jpeg"
+sidebar_image = "/blocks-teste/images/b.jpeg"
 
 
 [markup]
