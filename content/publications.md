@@ -3,16 +3,15 @@ title: "Publications & Data"
 ---
 
 <style>
-/* --- 0. CONFIGURAÇÃO BASE --- */
 .container, main.content {
     max-width: none !important; 
     width: auto !important;     
 }
 
-/* --- 1. LARGURA GERAL E CONTAINERS --- */
+/* LARGURA GERAL E CONTAINERS */
 .pub-container {
     width: 100%; 
-    max-width: 1600px; /* Padronizado com Home e Research */
+    max-width: 1600px;
     margin: 0 auto;    
     padding: 0 20px 50px 20px;
     box-sizing: border-box;
@@ -28,7 +27,7 @@ title: "Publications & Data"
     padding-bottom: 20px; 
 }
 
-/* --- 2. ESTILO DOS ARTIGOS (LISTA COMPACTA) --- */
+/* ARTIGOS  */
 .pub-list {
     display: flex;
     flex-direction: column;
@@ -64,7 +63,7 @@ title: "Publications & Data"
     color: #666;
 }
 
-/* --- 3. LINKS (ADS / PDF) --- */
+/* LINKS  */
 .pub-links {
     display: flex;
     gap: 10px;
@@ -89,7 +88,7 @@ title: "Publications & Data"
     border-color: #2c3e50;
 }
 
-/* --- 4. SEÇÃO DE ACESSO A DADOS --- */
+/* DADOS */
 .data-section {
     margin-top: 10px;
     padding: 12px 15px;

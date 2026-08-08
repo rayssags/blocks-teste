@@ -3,16 +3,15 @@ title: "Research"
 ---
 
 <style>
-/* --- 0. CONFIGURAÇÃO BASE --- */
 .container, main.content {
     max-width: none !important; 
     width: auto !important;     
 }
 
-/* --- 1. LARGURA GERAL DO SITE --- */
+/* LARGURA GERAL  */
 .research-container {
     width: 100%; 
-    max-width: 1600px; /* Largura máxima */
+    max-width: 1600px; 
     margin: 0 auto;    
     padding: 0 3px;
     margin-top: 0px; 
@@ -24,7 +23,7 @@ title: "Research"
     .reverse-layout { flex-direction: row; }
 }
 
-/* --- 2. DISTÂNCIA ENTRE AS COISAS --- */
+/*  DISTÂNCIA ENTRE AS COISAS */
 .research-row {
     display: flex;
     flex-wrap: wrap; 
@@ -41,11 +40,11 @@ title: "Research"
     min-width: 300px; 
     max-width: 800px; 
     text-align: justify; 
-    font-size: 1.1rem; /* Erro de digitação corrigido */
-    line-height: 1.7; /* Aumentado levemente para melhorar a leitura */
+    font-size: 1.1rem; 
+    line-height: 1.7; 
 }
 
-/* --- 4. COLUNA DA IMAGEM --- */
+/*  COLUNA DA IMAGEM */
 .research-image { 
     flex: 1.1; 
     min-width: 350px; 
@@ -66,21 +65,19 @@ title: "Research"
     width: 100%;       
     height: auto;      
     object-fit: contain;
-    border-radius: 8px; /* Bordas arredondadas */
+    border-radius: 8px; 
     
-    /* A Mágica da Animação: */
     transition: transform 0.3s ease; 
     cursor: pointer;
 }
 
-/* O Zoom quando passa o mouse */
 .image-grid img:hover { 
-    transform: scale(1.01); /* Aumenta 1% */
+    transform: scale(1.01); 
     z-index: 2; 
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1); /* Sombra suave ao levantar */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1); 
 }
 
-/* Ajustes Específicos se precisar (opcional) */
+/* Ajustes Específicos */
 .image-grid img.small-grid {
     flex: 1 1 45%;
     min-width: 140px;
@@ -95,7 +92,7 @@ title: "Research"
     object-fit: contain;
 }
 
-/* --- TIPOGRAFIA --- */
+/* TEXTOS */
 .research-name { 
     font-size: 1.5rem; 
     color: #2c3e50; 
@@ -136,6 +133,9 @@ title: "Research"
     Research Lines
 </h1>
 
+
+/* MARCO
+
 <div class="research-row" style="margin-top: 50px;">
     <div class="research-text">
         <div class="research-name">The MaLHUCOS Survey</div>
@@ -152,12 +152,16 @@ title: "Research"
 
 <div class="research-image">
     <div class="image-grid" style="flex-direction: row;">
-        <img class="full-width" src="/images/rect2.png" alt="JCMT Spectra">
+        <img class="full-width" src="images/rect2.png" alt="JCMT Spectra">
     </div>
     <div class="plot-caption">Combined gri SDSS images of a subset of the MaLHUCOS sample with the MaNGA hexagonal field of view overlaid (32″ diameter, top row). Example of the JCMT spectra showing the detected CO(J=2-1) emission line (bottom row).
     </div>
 </div>
 </div>
+
+
+/* CECILIA
+
 
 <div class="research-row reverse-layout">
     <div class="research-text">
@@ -173,12 +177,16 @@ title: "Research"
 
 <div class="research-image">
     <div class="image-grid" style="flex-direction: row;">
-        <img class="full-width" src="/images/splus.png" alt="S-PLUS Analysis">
+        <img class="full-width" src="images/splus.png" alt="S-PLUS Analysis">
     </div>
     <div class="plot-caption">Left: S-PLUS multiband images of 2 low-metallicity dwarf galaxy candidates from this work, each covering 67"✕67". Right: examples of SED fitting with CIGALE. The pink circles represent the modeled flux and the white circle the photometric fluxes, obtained from the 12 S-PLUS magnitudes.
     </div>
 </div>
 </div>
+
+
+
+/* LUCAS
 
 <div class="research-row">
     <div class="research-text">
@@ -195,7 +203,7 @@ title: "Research"
 <div class="research-image">
     <div class="image-grid">
         <div>
-            <img class="full-width" src="/images/agn.png" alt="Spectral decomposition">
+            <img class="full-width" src="images/agn.png" alt="Spectral decomposition">
             <div class="plot-caption">
                 Left: Spectral decomposition of the Hα region for object 9190-1901, showing the broad (green) and narrow (cyan) components.
                 Right: The M<sub>BH</sub> - M<sub>*</sub> scaling relation. Our broad-line AGN candidates are compared to the DESI low-mass AGN sample.
@@ -204,6 +212,13 @@ title: "Research"
     </div>
 </div>
 </div>
+
+
+
+
+
+/* RAIMUNDO
+
 
 <div class="research-row reverse-layout">
     <div class="research-text">
@@ -219,7 +234,7 @@ title: "Research"
 
 <div class="research-image">
     <div class="image-grid" style="flex-direction: row;">
-        <img class="full-width" src="/images/GC.png" alt="Descrição da Imagem">
+        <img class="full-width" src="images/GC.png" alt="Descrição da Imagem">
     </div>
     <div class="plot-caption">The dashboard shows 10 dwarf irregular galaxies, with small circles representing the dispersion of the GCs around each galaxy. The color bar indicates the colors of the GC candidates, different colors within the same galaxy may suggest the presence of subpopulations. The red circle indicates a region corresponding to five effective radii around the galaxy.</div>
 </div>
