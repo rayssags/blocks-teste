@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DWARFS Research Group on </title>
-    <link>http://localhost:1313/dwarfs-site/</link>
-    <description>Recent content in DWARFS Research Group on </description>
-    <generator>Hugo</generator>
+    <title>Building bLocks: explOring Chemistry and Kinematics of Small galaxies (BLOCKS) on BLOCKS</title>
+    <link>http://localhost:34265/</link>
+    <description>Recent content in Building bLocks: explOring Chemistry and Kinematics of Small galaxies (BLOCKS) on BLOCKS</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/dwarfs-site/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:34265/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Olá!</title>
-      <link>http://localhost:1313/dwarfs-site/home/</link>
+      <title>Contact</title>
+      <link>http://localhost:34265/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/dwarfs-site/home/</guid>
-      <description>&lt;p&gt;I am a PhD student at the &lt;a href=&#34;https://ov.ufrj.br/pos-graduacao/&#34;&gt;Observatório do Valongo/UFRJ&lt;/a&gt;, a member of the &lt;a href=&#34;https://lasex-valongo.com/&#34;&gt;Extragalactic Astronomy Laboratory&lt;/a&gt;, and part of the &lt;a href=&#34;https://wallaby-survey.org/&#34;&gt;WALLABY&lt;/a&gt; collaboration. My current research focuses on dwarf galaxies in cosmic voids, studying their gas properties and chemical evolution. I have experience in mid-infrared spectroscopy and astrochemistry applied to the search for evidence of black holes in nearby and distant galaxies.&lt;/p&gt;</description>
+      <guid>http://localhost:34265/contact/</guid>
+      <description> Contact Where to find us You can visit us at the Valongo Observatory, part of the Federal University of Rio de Janeiro (UFRJ).&#xA;Address Valongo Observatory - UFRJ&#xA;Ladeira Pedro Antônio, 43 - Saúde&#xA;Rio de Janeiro - RJ&#xA;ZIP: 20080-090 Phone: +55 (21) 2263-0685&#xA;Email: marco@astro.ufrj.br View on Google Maps </description>
+    </item>
+    <item>
+      <title>Publications &amp; Data</title>
+      <link>http://localhost:34265/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:34265/publications/</guid>
+      <description> Publications &amp; Data The Southern Photometrical Local Universe Survey (S-PLUS): Searching for Metal-poor Dwarf Galaxies Grossi, M.; Gonçalves, D. R.; et al. The Astrophysical Journal, Volume 994, Issue 2, id.230, 2025 NASA ADS Data Access Tables, photometric data, and catalogs from this survey are publicly available. ↳ Data Tables (CSV/FITS) on Google Drive ↳ Code &amp; Scripts on GitHub </description>
+    </item>
+    <item>
+      <title>Research</title>
+      <link>http://localhost:34265/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:34265/research/</guid>
+      <description>Research Lines The MaLHUCOS Survey Marco Grossi We conducted a James Clerk Maxwell Telescope (JCMT) survey of molecular gas in low-mass disk galaxies selected from the MaNGA survey. Our sample includes 42 late-type galaxies with stellar masses between 108 and 1010 M⊙, of which 55% are detected at 230 GHz through the CO(J=2–1) emission line. By combining IFU observations with the JCMT CO data, we investigate the processes that regulate the abundance of molecular gas and its conversion into stars in low-mass disk galaxies, as well as how it correlates with other galaxy properties such as stellar mass, star formation rate, and metallicity.</description>
     </item>
   </channel>
 </rss>

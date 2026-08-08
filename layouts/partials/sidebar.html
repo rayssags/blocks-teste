@@ -1,28 +1,104 @@
+<style>
+/*  ESTILO DA BARRA LATERAL */
+.sidebar-about a {
+    text-decoration: none;
+}
+
+.sidebar-image {
+    margin-bottom: 0px; 
+}
+
+.sidebar-about h1 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #ffffff;
+}
+
+.sidebar-about .lead {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.7); 
+    margin-bottom: 40px;
+}
+
+/* ESTILO DO MENU  */
+.sidebar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+
+.sidebar-nav a {
+    display: block;
+    color: #ffffff;
+    font-size: 1.10rem; 
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.sidebar-nav a:hover {
+    color: #e67e22; 
+    transform: translateX(4px); 
+}
+</style>
+
 <aside class="sidebar">
-  <div class="container sidebar-sticky">
-{{ with .Site.Params.sidebar_image }}
-  <div class="sidebar-image">
-    <img
-      src="{{ . }}"
-    />
-  </div>
-{{ end }}
-<div class="sidebar-about">
-      <a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Title }}</h1></a>
-      <p class="lead">
-      {{ with .Site.Params.description }} {{.}} {{ else }}An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.{{end}}
-      </p>
+  <div class="container sidebar-sticky" style="display: flex; flex-direction: column; min-height: 100vh; justify-content: flex-start;">
+    
+    <div>
+        {{ with .Site.Params.sidebar_image }}
+          <div class="sidebar-image">
+            <img src="{{ .}}" />
+          </div>
+        {{ end }}
+
+        <div class="sidebar-about">
+          <a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Title }}</h1></a>
+          <p class="lead">
+          {{ with .Site.Params.description }} {{.}} {{ else }}An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.{{end}}
+          </p>
+        </div>
+
+        <nav>
+          <ul class="sidebar-nav">
+            <li><a href="{{ .Site.BaseURL }}">Home</a> </li>
+            {{ range .Site.Menus.main -}}
+              <li><a href="{{.URL}}"> {{ .Name }} </a></li>
+            {{- end }}
+          </ul>
+        </nav>
     </div>
 
-    <nav>
-      <ul class="sidebar-nav">
-        <li><a href="{{ .Site.BaseURL }}">Home</a> </li>
-        {{ range .Site.Menus.main -}}
-          <li><a href="{{.URL}}"> {{ .Name }} </a></li>
-        {{- end }}
-      </ul>
-    </nav>
+    <div style="margin-top: auto; width: 100%; text-align: center; padding-bottom: 20px;">
+        
+        <p style="font-size: 0.65rem; color: rgba(255,255,255,0.5); text-transform: uppercase; margin-bottom: 15px; letter-spacing: 2px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 15px; margin-left: 10px; margin-right: 10px;">
+            Support
+        </p>
+        
+        <div style="display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 15px; flex-wrap: nowrap;">
+            
+            <img src="/images/capes.png" alt="CAPES" 
+                 style="height: 60px; width: auto; opacity: 0.9;">
+            
+             <img src="/images/cnpq.png" alt="CNPq" 
+                 style="height: 35px; width: auto; opacity: 0.9;">
 
-    <p>{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{ now.Format "2006"}}. All rights reserved. {{end}}</p>
+            <img src="/images/faperj.png" alt="FAPERJ" 
+                 style="height: 40px; width: auto; opacity: 0.9;">
+        </div>
+      
+        <p style="margin-top: 20px; font-size: 0.8rem; opacity: 0.7;">
+            {{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{ now.Format "2006"}}. All rights reserved. {{end}}
+        </p>
+    </div>
+
   </div>
+  
 </aside>
