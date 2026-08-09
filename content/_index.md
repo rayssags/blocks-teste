@@ -3,13 +3,13 @@ title: "Building bLocks: explOring Chemistry and Kinematics of Small galaxies (B
 ---
 
 <style>
-/* --- 1. OVERRIDE DO TEMA --- */
+
 .container, main.content {
     max-width: none !important; 
     width: auto !important;     
 }
 
-/* --- 2. CONTAINER DA HOME --- */
+/* HOME */
 .home-container {
     width: 100%; 
     max-width: 1600px; /* Igual à página de Research */
@@ -21,7 +21,7 @@ title: "Building bLocks: explOring Chemistry and Kinematics of Small galaxies (B
     align-items: center; 
 }
 
-/* --- 3. TEXTO INTRODUTÓRIO --- */
+/* TEXTO*/
 .home-text {
     width: 100%; /* Permite que o texto vá de uma ponta à outra */
     text-align: justify; 
@@ -31,7 +31,7 @@ title: "Building bLocks: explOring Chemistry and Kinematics of Small galaxies (B
     margin: 0 auto 50px auto; 
 }
 
-/* --- 4. ALINHAMENTO DOS TÍTULOS --- */
+/* ALINHAMENTO DOS TÍTULOS */
 .home-container h1 {
     text-align: center;
     margin-top: 40px;
@@ -52,17 +52,16 @@ title: "Building bLocks: explOring Chemistry and Kinematics of Small galaxies (B
     padding-bottom: 10px;
     color: #2c3e50;
 }
-/* --- 5. GRADE DE PERFIS E AJUSTE DE ESCALA --- */
+/* GRADE E AJUSTE DE ESCALA */
 .profiles-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: center; 
-    gap: 40px; /* Aumenta o espaço entre os pesquisadores */
+    gap: 40px; 
     width: 100%;
     margin-bottom: 50px;
 }
 
-/* Ajusta a largura dos cartões para não espremer o texto */
 .profiles-grid > div {
     width: 280px !important; 
     max-width: 100% !important; 
@@ -70,7 +69,7 @@ title: "Building bLocks: explOring Chemistry and Kinematics of Small galaxies (B
     box-sizing: border-box;
 }
 
-/* Tamanho das fotos um pouco maior para acompanhar o cartão */
+/* Tamanho das fotos */
 .profiles-grid img {
     width: 130px !important;
     height: 130px !important;
@@ -78,7 +77,7 @@ title: "Building bLocks: explOring Chemistry and Kinematics of Small galaxies (B
     margin-bottom: 15px !important;
 }
 
-/* Ajusta a fonte dos nomes */
+/* fonte dos nomes */
 .profiles-grid h3,
 .profiles-grid h4,
 .profiles-grid strong {
@@ -86,7 +85,7 @@ title: "Building bLocks: explOring Chemistry and Kinematics of Small galaxies (B
     margin-bottom: 8px !important;
 }
 
-/* Ajusta a fonte das descrições */
+/* fonte das descrições */
 .profiles-grid p, 
 .profiles-grid span,
 .profiles-grid a {

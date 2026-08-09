@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="{{ "css/print.css" | relURL }}" media="print">
+<link rel="stylesheet" href="{{ "css/print.css" | absURL }}" media="print">
 
 {{- $others := slice (resources.Get "css/poole.css") (resources.Get "css/syntax.css") (resources.Get "css/hyde.css") }}
 {{- with (resources.Get "css/custom.css") }}
@@ -6,6 +6,8 @@
 {{- end }}
 {{- $other := $others | resources.Concat "css/hyde-bundle.css" }}
 
-<link rel="stylesheet" href="{{ $other.RelPermalink }}">
+{{- if $other }}
+<link rel="stylesheet" href="{{ $other.Permalink }}">
+{{- end }}
 
 {{- partial "head_fonts.html" . -}}
