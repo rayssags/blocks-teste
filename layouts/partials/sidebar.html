@@ -55,7 +55,7 @@
     <div>
         {{ with .Site.Params.sidebar_image }}
           <div class="sidebar-image">
-            <img src="{{ .}}" />
+            <img src="{{ . | relURL }}" />
           </div>
         {{ end }}
 
@@ -84,15 +84,15 @@
         
         <div style="display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 15px; flex-wrap: nowrap;">
             
-            <img src="/blocks-teste/images/capes.png" alt="CAPES" 
-                 style="height: 60px; width: auto; opacity: 0.9;">
-            
-             <img src="/blocks-teste/images/cnpq.png" alt="CNPq" 
-                 style="height: 35px; width: auto; opacity: 0.9;">
+            <img src="{{ "/images/capes.png" | relURL }}" alt="CAPES" 
+                style="height: 60px; width: auto; opacity: 0.9;">
 
-            <img src="/blocks-teste/images/faperj.png" alt="FAPERJ" 
-                 style="height: 40px; width: auto; opacity: 0.9;">
-        </div>
+            <img src="{{ "/images/cnpq.png" | relURL }}" alt="CNPq" 
+                style="height: 35px; width: auto; opacity: 0.9;">
+
+            <img src="{{ "/images/faperj.png" | relURL }}" alt="FAPERJ" 
+                style="height: 40px; width: auto; opacity: 0.9;">
+                    </div>
       
         <p style="margin-top: 20px; font-size: 0.8rem; opacity: 0.7;">
             {{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{ now.Format "2006"}}. All rights reserved. {{end}}
