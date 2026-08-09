@@ -19,8 +19,8 @@
   {{ partialCached "head_css.html" "" "" }}
 
   <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
-  <link rel="shortcut icon" href="/aa.jpeg">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "/apple-touch-icon-144-precomposed.png" | relURL }}">
+  <link rel="shortcut icon" href="{{ "/aa.jpeg" | relURL }}">
 
   <!-- RSS etc -->
   {{ range .AlternativeOutputFormats -}}
