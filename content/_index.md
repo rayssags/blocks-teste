@@ -130,8 +130,8 @@ Due to their low metallicities and angular momentum, high turbulence and bursty 
       name="Rayssa Guimarães Silva" 
       position="PhD Student" 
       description="Evolution of dwarf galaxies in low-density environments." 
-      orcid="https://orcid.org/" 
-      lattes="https://lattes.cnpq.br/" 
+      orcid="https://orcid.org/0000-0003-0634-7710" 
+      lattes="http://lattes.cnpq.br/7456987747174994" 
       website="https://rayssags.github.io" 
   >}}
   {{< profile 
@@ -149,6 +149,7 @@ Due to their low metallicities and angular momentum, high turbulence and bursty 
       name="Lucas Ribeiro da Silva" 
       position="BSc Student" 
       description="Intermediate black holes in low-mass galaxies of the MaNGA survey." 
+      orcid="https://orcid.org/0009-0007-7133-1404" 
       lattes="https://lattes.cnpq.br/0601908903616454" 
   >}}
   {{< profile 
@@ -156,6 +157,7 @@ Due to their low metallicities and angular momentum, high turbulence and bursty 
       name="Cecília Pereira Coutinho" 
       position="BSc Student"
       description="Searching for low-metallicity dwarf galaxies in the S-PLUS survey." 
+      lattes="http://lattes.cnpq.br/0735358372203222"
   >}}
   {{< profile 
       image="" 

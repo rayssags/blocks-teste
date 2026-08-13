@@ -1,5 +1,5 @@
 <style>
-/*  ESTILO DA BARRA LATERAL */
+/* ESTILO DA BARRA LATERAL */
 .sidebar-about a {
     text-decoration: none;
 }
@@ -23,7 +23,7 @@
     margin-bottom: 40px;
 }
 
-/* ESTILO DO MENU  */
+/* ESTILO DO MENU */
 .sidebar-nav {
     list-style: none;
     padding: 0;
@@ -50,8 +50,9 @@
 </style>
 
 <aside class="sidebar">
-  <div class="container sidebar-sticky" style="display: flex; flex-direction: column; min-height: 100vh; justify-content: flex-start;">
+  <div class="container sidebar-sticky" style="display: flex; flex-direction: column;">
     
+    <!-- BLOCO SUPERIOR (Menu e Textos) -->
     <div>
         {{ with .Site.Params.sidebar_image }}
           <div class="sidebar-image">
@@ -76,7 +77,7 @@
         </nav>
     </div>
 
-    <div style="margin-top: auto; width: 100%; text-align: center; padding-bottom: 20px;">
+    <div style="width: 100%; text-align: center; margin-top: 100px; padding-bottom: 20px;">
         
         <p style="font-size: 0.65rem; color: rgba(255,255,255,0.5); text-transform: uppercase; margin-bottom: 15px; letter-spacing: 2px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 15px; margin-left: 10px; margin-right: 10px;">
             Support
@@ -84,20 +85,16 @@
         
         <div style="display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 15px; flex-wrap: nowrap;">
             
-        <img src="{{ "/images/capes.png" | relURL }}" alt="CAPES" 
-            style="height: 60px; width: auto; opacity: 0.9;">
+            <img src="{{ "/images/capes.png" | relURL }}" alt="CAPES" 
+                style="height: 60px; width: auto; opacity: 0.9;">
 
-        <img src="{{ "/images/cnpq.png" | relURL }}" alt="CNPq" 
-            style="height: 35px; width: auto; opacity: 0.9;">
+            <img src="{{ "/images/cnpq.png" | relURL }}" alt="CNPq" 
+                style="height: 35px; width: auto; opacity: 0.9;">
 
-        <img src="{{ "/images/faperj.png" | relURL }}" alt="FAPERJ" 
-            style="height: 40px; width: auto; opacity: 0.9;">
-      
-        <p style="margin-top: 20px; font-size: 0.8rem; opacity: 0.7;">
-            {{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{ now.Format "2006"}}. All rights reserved. {{end}}
-        </p>
+            <img src="{{ "/images/faperj.png" | relURL }}" alt="FAPERJ" 
+                style="height: 40px; width: auto; opacity: 0.9;">
+        </div>
     </div>
 
   </div>
-  
 </aside>
