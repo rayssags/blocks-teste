@@ -160,10 +160,11 @@ Due to their low metallicities and angular momentum, high turbulence and bursty 
       lattes="http://lattes.cnpq.br/0735358372203222"
   >}}
   {{< profile 
-      image="" 
+      image="https://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K1144007J7" 
       name="Lucas Silva de Souza" 
       position="BSc Student"
-      description="Star formation activity of dwarf galaxies with the ASKAP telescope." 
+      description="Star formation activity of dwarf galaxies with the ASKAP telescope"
+      lattes="https://lattes.cnpq.br/9385844526550776" 
   >}}
 </div>
 
