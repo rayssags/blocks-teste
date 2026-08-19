@@ -21,7 +21,7 @@
 
 
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "/apple-touch-icon-144-precomposed.png" | relURL }}?v=2">
-  <link rel="shortcut icon" href="{{ "/aa.jpeg" | relURL }}?v=2">
+  <link rel="shortcut icon" href="{{ "/images/rect2.png" | relURL }}?v=2">
 
   {{ range .AlternativeOutputFormats -}}
     {{ printf `<link href="%s" rel="%s" type="%s" title="%s" />` .Permalink .Rel .MediaType.Type $.Site.Title | safeHTML }}
