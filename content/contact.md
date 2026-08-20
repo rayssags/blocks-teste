@@ -3,22 +3,21 @@ title: "Contact"
 ---
 
 <style>
-/* --- 0. CONFIGURAÇÃO BASE --- */
 .container, main.content {
     max-width: none !important; 
     width: auto !important;     
 }
 
-/* --- 1. LARGURA GERAL E CONTAINERS --- */
+/*  LARGURA E CONTAINERS */
 .contact-container {
     width: 100%; 
-    max-width: 1600px; /* Padronizado com as outras páginas */
+    max-width: 1600px;
     margin: 0 auto;    
     padding: 0 20px 50px 20px;
     box-sizing: border-box;
 }
 
-/* --- 2. PADRÃO DO TÍTULO PRINCIPAL --- */
+/*  TÍTULO PRINCIPAL */
 .contact-container h1 {
     text-align: center;
     margin-top: 40px;
@@ -29,7 +28,7 @@ title: "Contact"
     padding-bottom: 20px;
 }
 
-/* --- 3. LAYOUT EM DUAS COLUNAS --- */
+/* LAYOUT EM DUAS COLUNAS  */
 .contact-content {
     display: flex;
     flex-wrap: wrap;
@@ -51,9 +50,9 @@ title: "Contact"
     font-size: 1.4rem;
 }
 
-/* --- 4. COLUNA DO MAPA E BOTÃO --- */
+/*  MAPA E BOTÃO  */
 .contact-map {
-    flex: 1.5; /* O mapa ocupa um espaço levemente maior */
+    flex: 1.5; 
     min-width: 300px;
     display: flex;
     flex-direction: column;
@@ -77,7 +76,7 @@ title: "Contact"
     font-weight: 600;
     text-decoration: none;
     transition: all 0.2s ease;
-    align-self: flex-start; /* Alinha o botão à esquerda sob o mapa */
+    align-self: flex-start; 
 }
 
 .route-button:hover {
@@ -95,7 +94,7 @@ title: "Contact"
 
 <div class="contact-content">
     
-<!-- COLUNA DA ESQUERDA: TEXTO E ENDEREÇO -->
+<!-- TEXTO E ENDEREÇO -->
 <div class="contact-info">
     <h3>Where to find us</h3>
     <p>You can visit us at the Valongo Observatory, part of the Federal University of Rio de Janeiro (UFRJ).</p>
@@ -114,7 +113,7 @@ title: "Contact"
 </p>
 </div>
 
-<!-- COLUNA DA DIREITA: MAPA E BOTÃO -->
+<!-- MAPA E BOTÃO -->
 <div class="contact-map">
     <iframe 
         src="https://maps.google.com/maps?q=Observatório%20do%20Valongo&t=&z=15&ie=UTF8&iwloc=&output=embed" 

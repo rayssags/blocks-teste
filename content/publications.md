@@ -145,7 +145,7 @@ title: "Publications & Data"
 
 <div class="data-section">
     <strong>Data Access</strong>
-    Tables, photometric data, and catalogs from this survey are publicly available.
+    Tables, photometric data, and catalogs from this paper are publicly available.
     <div class="data-links">
         <a href="#">↳ Data Tables (CSV/FITS) on Google Drive</a>
         <a href="#">↳ Code & Scripts on GitHub</a>

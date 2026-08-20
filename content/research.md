@@ -153,7 +153,7 @@ title: "Research"
 
 <div class="research-image">
     <div class="image-grid" style="flex-direction: row;">
-        <img class="full-width" src="/images/rect2.png" alt="JCMT Spectra">
+        <img class="full-width" src="/images/Malhucos2.png" alt="JCMT Spectra">
 
 </div>
     <div class="plot-caption">Combined gri SDSS images of a subset of the MaLHUCOS sample with the MaNGA hexagonal field of view overlaid (32″ diameter, top row). Example of the JCMT spectra showing the detected CO(J=2-1) emission line (bottom row).
