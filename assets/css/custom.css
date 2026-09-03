@@ -1,6 +1,6 @@
 /* Blue */
 .ufrj .sidebar {
-  background-color: #003366;
+  background-color: #e7e3ec;
 }
 .ufrj .content a,
 .ufrj .related-posts li a:hover {
@@ -42,13 +42,14 @@
 }
 
 .sidebar-image img {
-  width: 80%;               /* scale relative to container */
-  max-width: 250px;         /* max size */
-  aspect-ratio: 1 / 1;      /* ensures a square box */
-  border-radius: 50%;        /* makes it circular */
-  object-fit: cover;         /* crops the image to fit the square */
+  /*width: 80%;               /* scale relative to container */
+  /*max-width: 250px;         /* max size */
+  /*aspect-ratio: 1 / 1;      /* ensures a square box */
+  /*border-radius: 50%;        /* makes it circular */
+  /*object-fit: cover;         /* crops the image to fit the square */
+  border-radius: 0px;
   display: inline-block;
-  border: 1px solid #ccc;    /* optional border */
+  /*border: 1px solid #ccc;    /* optional border */
 }
 
 .sidebar-about {
