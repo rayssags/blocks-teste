@@ -47,7 +47,7 @@
   /*aspect-ratio: 1 / 1;      /* ensures a square box */
   /*border-radius: 50%;        /* makes it circular */
   /*object-fit: cover;         /* crops the image to fit the square */
-  border-radius: 0 px;
+  border-radius: 0px;
   display: inline-block;
   /*border: 1px solid #ccc;    /* optional border */
 }
