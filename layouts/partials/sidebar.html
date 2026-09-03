@@ -56,7 +56,7 @@
     <div>
         {{ with .Site.Params.sidebar_image }}
           <div class="sidebar-image">
-            <a href="{{ .Site.BaseURL }}"><img src="{{ . | relURL }}" /></a>
+            <a href="{{ $.Site.BaseURL }}"><img src="{{ . | relURL }}" alt="{{ $.Site.Title }}" /></a>
           </div>
         {{ end }}
 
