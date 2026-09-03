@@ -56,12 +56,11 @@
     <div>
         {{ with .Site.Params.sidebar_image }}
           <div class="sidebar-image">
-            <img src="{{ . | relURL }}" />
+            <a href="{{ .Site.BaseURL }}"><img src="{{ . | relURL }}" /></a>
           </div>
         {{ end }}
 
         <div class="sidebar-about">
-          <a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Title }}</h1></a>
           <p class="lead">
           {{ with .Site.Params.description }} {{.}} {{ else }}An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.{{end}}
           </p>
