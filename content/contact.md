@@ -109,7 +109,7 @@ title: "Contact"
 
 <p style="margin-top: 20px;">
     <strong>Phone:</strong> +55 (21) 2263-0685<br>
-    <strong>Email:</strong> marco@astro.ufrj.br
+    <strong>Email:</strong> grossi@ov.ufrj.br
 </p>
 </div>
 
