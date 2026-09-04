@@ -30,8 +30,9 @@ title: "Research"
     align-items: center; 
     gap: 50px; 
     margin-bottom: 10px; 
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #000;
     padding-bottom: 40px;
+    padding-top: 40px;
 }
 .research-row:last-child { border-bottom: none; }
 
@@ -40,7 +41,8 @@ title: "Research"
     min-width: 300px; 
     max-width: 800px; 
     font-size: 12pt; 
-    line-height: 1.3; 
+    line-height: 1.3;
+    text-align: justify;
 }
 
 /*  COLUNA DA IMAGEM */
@@ -97,7 +99,7 @@ title: "Research"
     color: #2c3e50; 
     font-weight: 800; 
     margin-bottom: 5px;
-    text-align: justify; 
+    text-align: left; 
 }
 
 .researcher { 
