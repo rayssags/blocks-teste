@@ -6,7 +6,7 @@ Title = "BLOCKS"
 themeColor = "ufrj"
 description = "The Dwarf Galaxies Group at the Valongo Observatory, Federal University of Rio de Janeiro."
 copyright = ""
-sidebar_image = "/images/blocks_logo_new.svg"
+sidebar_image = "/images/blocks_logo_color.svg"
 
 [markup]
   [markup.goldmark.renderer]
