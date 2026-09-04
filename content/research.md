@@ -121,8 +121,8 @@ title: "Research"
     text-align: justify; 
 
 
-    font-size: 0.75rem;
-    line-height: 1.4;
+    font-size: 12pt;
+    line-height: 1.3;
 }
 
 .reverse-layout { flex-direction: row-reverse; }
