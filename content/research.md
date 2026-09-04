@@ -51,6 +51,43 @@ title: "Research"
     min-width: 350px; 
 }
 
+
+/* CLICK-TO-ZOOM */
+
+.zoom-image {
+    display: block;
+    position: relative;
+    cursor: zoom-in;
+    width: 100%;
+}
+
+.zoom-image input {
+    display: none;
+}
+
+.zoom-image img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    transform-origin: center center;
+}
+
+/* Enlarge when clicked */
+.zoom-image input:checked + img {
+    transform: scale(1.8);
+    cursor: zoom-out;
+    position: relative;
+    z-index: 10;
+}
+
+/* Keep the image above the surrounding content */
+.zoom-image:has(input:checked) {
+    position: relative;
+    z-index: 10;
+}
+
 .image-grid {
     display: flex;
     flex-wrap: wrap;
@@ -204,10 +241,15 @@ title: "Research"
         </p>
     </div>
 
+
 <div class="research-image">
     <div class="image-grid">
         <div>
-            <img class="full-width" src="/images/agn.png" alt="Spectral decomposition">
+            <label class="zoom-image">
+                <input type="checkbox">
+                <img class="full-width" src="/images/agn.png" alt="Spectral decomposition">
+            </label>
+
             <div class="plot-caption">
                 Left: Spectral decomposition of the Hα region for object 9190-1901, showing the broad (green) and narrow (cyan) components.
                 Right: The M<sub>BH</sub> - M<sub>*</sub> scaling relation. Our broad-line AGN candidates are compared to the DESI low-mass AGN sample.
@@ -215,7 +257,8 @@ title: "Research"
         </div>
     </div>
 </div>
-</div>
+
+
 
 
 
