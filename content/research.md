@@ -248,7 +248,6 @@ title: "Research"
 
 
 <!-- LUCAS -->
-
 <div class="research-row">
     <div class="research-text">
         <div class="research-name">AGN Feedback in Low-Mass Galaxies</div>
@@ -276,10 +275,7 @@ title: "Research"
         </div>
     </div>
 </div>
-
-
-
-
+</div>
 
 
 
