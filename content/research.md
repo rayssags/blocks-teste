@@ -194,9 +194,9 @@ title: "Research"
     </div>
 
 <div class="research-image">
-            <label>
-        <input type="checkbox">
     <div class="image-grid" style="flex-direction: row;">
+        <label>
+        <input type="checkbox">
         <img class="full-width" src="/images/splus.png" alt="S-PLUS Analysis">
     </label>
     </div>
@@ -222,7 +222,10 @@ title: "Research"
 
 <div class="research-image">
     <div class="image-grid" style="flex-direction: row;">
+        <label>
+        <input type="checkbox">
         <img class="full-width" src="/images/agn.png" alt="Spectral decomposition">
+        </label>
     </div>
     <div class="plot-caption">
         Left: Spectral decomposition of the Hα region for object 9190-1901, showing the broad (green) and narrow (cyan) components.
