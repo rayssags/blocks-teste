@@ -249,7 +249,6 @@ title: "Research"
                 <input type="checkbox">
                 <img class="full-width" src="/images/agn.png" alt="Spectral decomposition">
             </label>
-
             <div class="plot-caption">
                 Left: Spectral decomposition of the Hα region for object 9190-1901, showing the broad (green) and narrow (cyan) components.
                 Right: The M<sub>BH</sub> - M<sub>*</sub> scaling relation. Our broad-line AGN candidates are compared to the DESI low-mass AGN sample.
