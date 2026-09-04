@@ -22,7 +22,7 @@ title: "Publications & Data"
     margin-top: 40px; 
     margin-bottom: 50px; 
     font-size: 2.2rem; 
-    color: #2c3e50; 
+    color: #1f003d; 
     border-bottom: 1px solid #eee; 
     padding-bottom: 20px; 
 }
@@ -47,7 +47,7 @@ title: "Publications & Data"
 
 .pub-title {
     font-size: 1.25rem;
-    color: #2c3e50;
+    color: #1f003d;
     font-weight: 700;
     line-height: 1.4;
 }
@@ -74,7 +74,7 @@ title: "Publications & Data"
     display: inline-block;
     font-size: 0.85rem;
     font-weight: 600;
-    color: #2c3e50;
+    color: #1f003d;
     border: 1px solid #ccc;
     padding: 4px 12px;
     border-radius: 4px;
@@ -83,9 +83,9 @@ title: "Publications & Data"
 }
 
 .pub-links a:hover {
-    background-color: #2c3e50;
+    background-color: #1f003d;
     color: #fff;
-    border-color: #2c3e50;
+    border-color: #1f003d;
 }
 
 /* DADOS */
@@ -100,7 +100,7 @@ title: "Publications & Data"
 }
 
 .data-section strong {
-    color: #2c3e50;
+    color: #1f003d;
     font-size: 0.85rem;
     text-transform: uppercase;
     display: block;
