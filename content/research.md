@@ -51,62 +51,7 @@ title: "Research"
     min-width: 350px; 
 }
 
-/* CLICK-TO-ZOOM */
-
-.zoom-image {
-    display: block;
-    position: relative;
-    cursor: zoom-in;
-    width: 100%;
-}
-
-.zoom-image input {
-    display: none;
-}
-
-.zoom-image img {
-    display: block;
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-    border-radius: 8px;
-    transition: all 0.3s ease;
-    transform-origin: center center;
-}
-
-/* Enlarge and CENTER when clicked */
-.zoom-image input:checked + img {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    width: 90vw;
-    max-width: 1400px;
-    max-height: 90vh;
-    height: auto;
-    object-fit: contain;
-
-    transform: translate(-50%, -50%);
-    z-index: 9999;
-
-    cursor: zoom-out;
-    border-radius: 8px;
-}
-
-/* Dark overlay behind the zoomed image */
-.zoom-image:has(input:checked)::before {
-    content: "";
-    position: fixed;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.65);
-    z-index: 9998;
-}
-
-/* Keep zoom above everything */
-.zoom-image:has(input:checked) {
-    position: static;
-    z-index: 9999;
-}
-
+/* IMAGE GRID / PLOTS */
 
 .image-grid {
     display: flex;
@@ -114,40 +59,50 @@ title: "Research"
     gap: 30px;
     width: 100%;
     justify-content: center;
-    flex-direction: column; 
+    flex-direction: column;
 }
 
-
-/* Regra Geral para TODAS as imagens dentro do grid */
 .image-grid img {
-    width: 100%;       
-    height: auto;      
+    width: 100%;
+    height: auto;
     object-fit: contain;
-    border-radius: 8px; 
-    
-    transition: transform 0.3s ease; 
-    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    cursor: zoom-in;
 }
 
-.image-grid img:hover { 
-    transform: scale(1.01); 
-    z-index: 2; 
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1); 
+.image-grid img:hover {
+    transform: scale(1.01);
+    z-index: 2;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 
-/* Ajustes Específicos */
-.image-grid img.small-grid {
-    flex: 1 1 45%;
-    min-width: 140px;
-    height: 250px; 
-    object-fit: cover; 
+/* CLICK TO ZOOM */
+
+.image-grid input {
+    display: none;
 }
 
-.image-grid .full-width {
-    width: 100%;       
-    height: auto;      
-    max-height: none;  
-    object-fit: contain;
+.image-grid input:checked + img {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 90vw;
+    max-width: 1400px;
+    max-height: 90vh;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    cursor: zoom-out;
+}
+
+/* Dark background */
+.image-grid:has(input:checked)::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.65);
+    z-index: 9998;
 }
 
 /* TEXTOS */
@@ -212,8 +167,10 @@ title: "Research"
 
 <div class="research-image">
     <div class="image-grid" style="flex-direction: row;">
+        <label>
+        <input type="checkbox">
         <img class="full-width" src="/images/Malhucos2.png" alt="JCMT Spectra">
-
+        </label>
 </div>
     <div class="plot-caption">Combined gri SDSS images of a subset of the MaLHUCOS sample with the MaNGA hexagonal field of view overlaid (32″ diameter, top row). Example of the JCMT spectra showing the detected CO(J=2-1) emission line (bottom row).
     </div>
