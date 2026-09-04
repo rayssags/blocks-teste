@@ -77,6 +77,7 @@ title: "Research"
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 
+
 /* CLICK TO ZOOM */
 
 .image-grid input {
@@ -91,12 +92,21 @@ title: "Research"
     max-width: 1400px;
     max-height: 90vh;
     height: auto;
+
     transform: translate(-50%, -50%);
+    transform-origin: center center;
+
     z-index: 9999;
     cursor: zoom-out;
+
+    transition:
+        width 0.4s ease,
+        max-height 0.4s ease,
+        transform 0.4s ease;
 }
 
 /* Dark background */
+
 .image-grid:has(input:checked)::before {
     content: "";
     position: fixed;
@@ -104,6 +114,8 @@ title: "Research"
     background: rgba(0, 0, 0, 0.65);
     z-index: 9998;
 }
+
+
 
 /* TEXTOS */
 .research-name { 
@@ -230,9 +242,9 @@ title: "Research"
     <div class="plot-caption">
         Left: Spectral decomposition of the Hα region for object 9190-1901, showing the broad (green) and narrow (cyan) components.
         Right: The M<sub>BH</sub> - M<sub>*</sub> scaling relation. Our broad-line AGN candidates are compared to the DESI low-mass AGN sample.
-    </div>
 </div>
-
+</div>
+</div>
 
 
 <!-- RAIMUNDO -->
