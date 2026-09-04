@@ -51,7 +51,6 @@ title: "Research"
     min-width: 350px; 
 }
 
-
 /* CLICK-TO-ZOOM */
 
 .zoom-image {
@@ -66,27 +65,48 @@ title: "Research"
 }
 
 .zoom-image img {
+    display: block;
     width: 100%;
     height: auto;
     object-fit: contain;
     border-radius: 8px;
-    transition: transform 0.3s ease;
+    transition: all 0.3s ease;
     transform-origin: center center;
 }
 
-/* Enlarge when clicked */
+/* Enlarge and CENTER when clicked */
 .zoom-image input:checked + img {
-    transform: scale(1.8);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 90vw;
+    max-width: 1400px;
+    max-height: 90vh;
+    height: auto;
+    object-fit: contain;
+
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+
     cursor: zoom-out;
-    position: relative;
-    z-index: 10;
+    border-radius: 8px;
 }
 
-/* Keep the image above the surrounding content */
-.zoom-image:has(input:checked) {
-    position: relative;
-    z-index: 10;
+/* Dark overlay behind the zoomed image */
+.zoom-image:has(input:checked)::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.65);
+    z-index: 9998;
 }
+
+/* Keep zoom above everything */
+.zoom-image:has(input:checked) {
+    position: static;
+    z-index: 9999;
+}
+
 
 .image-grid {
     display: flex;
