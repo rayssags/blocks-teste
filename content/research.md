@@ -40,7 +40,7 @@ title: "Research"
     flex: 0.8; 
     min-width: 300px; 
     max-width: 800px; 
-    font-size: 12pt; 
+    font-size: 14pt; 
     line-height: 1.3;
     text-align: justify;
 }
@@ -96,7 +96,7 @@ title: "Research"
 /* TEXTOS */
 .research-name { 
     font-size: 1.5rem; 
-    color: #2c3e50; 
+    color: #1f003d; 
     font-weight: 800; 
     margin-bottom: 5px;
     text-align: left; 
@@ -104,7 +104,7 @@ title: "Research"
 
 .researcher { 
     font-size: 1.0rem; 
-    color: #e67e22; 
+    color: #9000b8; 
     font-weight: 700; 
     text-transform: uppercase; 
     margin-bottom: 20px; 
@@ -131,7 +131,7 @@ title: "Research"
 </style>
 
 <div class="research-container">
-<h1 style="text-align: center; margin-top: 40px; margin-bottom: 50px; font-size: 2.2rem; color: #2c3e50; border-bottom: 1px solid #eee; padding-bottom: 20px; width: 100%;">
+<h1 style="text-align: center; margin-top: 40px; margin-bottom: 50px; font-size: 2.2rem; color: #1f003d; border-bottom: 1px solid #eee; padding-bottom: 20px; width: 100%;">
     Research Lines
 </h1>
 
