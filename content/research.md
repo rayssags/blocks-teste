@@ -194,8 +194,11 @@ title: "Research"
     </div>
 
 <div class="research-image">
+            <label>
+        <input type="checkbox">
     <div class="image-grid" style="flex-direction: row;">
         <img class="full-width" src="/images/splus.png" alt="S-PLUS Analysis">
+    </label>
     </div>
     <div class="plot-caption">Left: S-PLUS multiband images of 2 low-metallicity dwarf galaxy candidates from this work, each covering 67"✕67". Right: examples of SED fitting with CIGALE. The pink circles represent the modeled flux and the white circle the photometric fluxes, obtained from the 12 S-PLUS magnitudes.
     </div>
@@ -217,21 +220,14 @@ title: "Research"
         </p>
     </div>
 
-
 <div class="research-image">
-    <div class="image-grid">
-        <div>
-            <label class="zoom-image">
-                <input type="checkbox">
-                <img class="full-width" src="/images/agn.png" alt="Spectral decomposition">
-            </label>
-            <div class="plot-caption">
-                Left: Spectral decomposition of the Hα region for object 9190-1901, showing the broad (green) and narrow (cyan) components.
-                Right: The M<sub>BH</sub> - M<sub>*</sub> scaling relation. Our broad-line AGN candidates are compared to the DESI low-mass AGN sample.
-            </div>
-        </div>
+    <div class="image-grid" style="flex-direction: row;">
+        <img class="full-width" src="/images/agn.png" alt="Spectral decomposition">
     </div>
-</div>
+    <div class="plot-caption">
+        Left: Spectral decomposition of the Hα region for object 9190-1901, showing the broad (green) and narrow (cyan) components.
+        Right: The M<sub>BH</sub> - M<sub>*</sub> scaling relation. Our broad-line AGN candidates are compared to the DESI low-mass AGN sample.
+    </div>
 </div>
 
 
@@ -253,8 +249,11 @@ title: "Research"
 
 <div class="research-image">
     <div class="image-grid" style="flex-direction: row;">
+    <label>
+        <input type="checkbox">
         <img class="full-width" src="/images/GC.png" alt="Descrição da Imagem">
-    </div>
+                </label>
+    </div>   
     <div class="plot-caption">The dashboard shows 10 dwarf irregular galaxies, with small circles representing the dispersion of the GCs around each galaxy. The color bar indicates the colors of the GC candidates, different colors within the same galaxy may suggest the presence of subpopulations. The red circle indicates a region corresponding to five effective radii around the galaxy.</div>
 </div>
 </div>
