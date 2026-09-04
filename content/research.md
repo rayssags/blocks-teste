@@ -39,9 +39,8 @@ title: "Research"
     flex: 0.8; 
     min-width: 300px; 
     max-width: 800px; 
-    text-align: justify; 
-    font-size: 1.1rem; 
-    line-height: 1.7; 
+    font-size: 12pt; 
+    line-height: 1.3; 
 }
 
 /*  COLUNA DA IMAGEM */
@@ -97,7 +96,8 @@ title: "Research"
     font-size: 1.5rem; 
     color: #2c3e50; 
     font-weight: 800; 
-    margin-bottom: 5px; 
+    margin-bottom: 5px;
+    text-align: justify; 
 }
 
 .researcher { 
