@@ -34,6 +34,7 @@ By combining IFU observations with the JCMT CO data, we investigate the processe
 
 <div class="research-row reverse-layout">
 <div class="research-text">
+
 ## Searching for metal-poor dwarf galaxies in the DR4 of the S-PLUS
 ### Cecília Pereira Coutinho
 
@@ -57,6 +58,7 @@ Our sample of 308 galaxies is being studied in terms of SEDs, with CIGALE, and o
 
 <div class="research-row">
 <div class="research-text">
+  
 ## AGN Feedback in Low-Mass Galaxies
 ### Lucas Ribeiro
 
@@ -80,6 +82,7 @@ Our main objectives are to detect AGN signatures, estimate virial Black Hole mas
 
 <div class="research-row reverse-layout">
 <div class="research-text">
+  
 ## Investigating globular clusters in dwarf irregular galaxies
 ### Raimundo José Ferreira Filho
 
