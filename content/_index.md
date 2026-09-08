@@ -12,12 +12,7 @@ Due to their low metallicities and angular momentum, high turbulence and bursty 
 ## Faculty
 <div class="profiles-grid">
 
-{{< profile
-image="https://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K8060167Y0"
-name="Marco Grossi"
-description="(description)"
-orcid="https://orcid.org/0000-0003-4675-3246"
-lattes="http://lattes.cnpq.br/5045749106134155" > }}
+{{< profile image="https://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K8060167Y0" name="Marco Grossi" description="(description)" orcid="https://orcid.org/0000-0003-4675-3246" lattes="http://lattes.cnpq.br/5045749106134155" > }}
 
 {{< profile
 image="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4728416A1"
