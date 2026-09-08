@@ -3,6 +3,7 @@ title: "Building bLocks: explOring Chemistry and Kinematics of Small galaxies (B
 ---
 
 <div class="home-container">
+  
 # Building bLocks: explOring Chemistry and Kinematics of Small galaxies<br>(BLOCKS)
 
 <!---div class="home-text"--->
