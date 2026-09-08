@@ -20,10 +20,10 @@
 }
 
 /* ========================================
-   UFRJ — RESEARCH PAGE
+   UFRJ — HOME / BLOCKS PAGE
 ======================================== */
 
-/* PAGE WIDTH */
+/* FULL PAGE WIDTH */
 
 .ufrj .container,
 .ufrj main.content {
@@ -31,6 +31,114 @@
     width: auto !important;
 }
 
+
+/* MAIN CONTAINER */
+
+.ufrj .home-container {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* INTRODUCTORY TEXT */
+
+.ufrj .home-text {
+    width: 100%;
+    text-align: justify;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+    margin: 0 auto 50px;
+}
+
+
+/* PAGE TITLE */
+
+.ufrj .home-container h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-size: 2.2rem;
+    width: 100%;
+    line-height: 1.3;
+    color: #1f003d;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+
+
+/* SECTION HEADINGS */
+
+.ufrj .home-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    color: #1f003d;
+}
+
+
+/* PROFILE GRID */
+
+.ufrj .profiles-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+/* PROFILE CARDS */
+
+.ufrj .profiles-grid > div {
+    width: 280px !important;
+    max-width: 100% !important;
+    padding: 20px !important;
+    box-sizing: border-box;
+}
+
+
+/* PROFILE PHOTOS */
+
+.ufrj .profiles-grid img {
+    width: 130px !important;
+    height: 130px !important;
+    max-width: 100% !important;
+    margin-bottom: 15px !important;
+}
+
+
+/* PROFILE NAMES */
+
+.ufrj .profiles-grid h3,
+.ufrj .profiles-grid h4,
+.ufrj .profiles-grid strong {
+    font-size: 1.1rem !important;
+    margin-bottom: 8px !important;
+}
+
+
+/* PROFILE DESCRIPTION */
+
+.ufrj .profiles-grid p,
+.ufrj .profiles-grid span,
+.ufrj .profiles-grid a {
+    font-size: 0.9rem !important;
+    line-height: 1.4 !important;
+}
+
+/* ========================================
+   UFRJ — RESEARCH PAGE
+======================================== */
 
 /* MAIN CONTAINER */
 
