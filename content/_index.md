@@ -12,7 +12,12 @@ Due to their low metallicities and angular momentum, high turbulence and bursty 
 ## Faculty
 <div class="profiles-grid">
 
-{{< profile image="https://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K8060167Y0" name="Marco Grossi" description="(description)" orcid="https://orcid.org/0000-0003-4675-3246" lattes="http://lattes.cnpq.br/5045749106134155" >}}
+{{< profile
+image="https://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K8060167Y0" 
+name="Marco Grossi" 
+description="(description)" 
+orcid="https://orcid.org/0000-0003-4675-3246" 
+lattes="http://lattes.cnpq.br/5045749106134155" >}}
 
 {{< profile
 image="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4728416A1"
@@ -34,14 +39,14 @@ position="PhD Student"
 description="Evolution of dwarf galaxies in low-density environments."
 orcid="https://orcid.org/0000-0003-0634-7710"
 lattes="http://lattes.cnpq.br/7456987747174994"
-website="https://rayssags.github.io" > }}
+website="https://rayssags.github.io" >}}
 
 {{< profile
 image="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K1181249E7"
 name="Raimundo José Ferreira Filho"
 position="PhD Student"
 description="The relation between globular clusters and the dark matter halo of dwarf galaxies."
-lattes="https://lattes.cnpq.br/3768018041447676" > }}
+lattes="https://lattes.cnpq.br/3768018041447676" >}}
 
 </div>
 
@@ -53,21 +58,21 @@ name="Lucas Ribeiro da Silva"
 position="BSc Student"
 description="Intermediate black holes in low-mass galaxies of the MaNGA survey."
 orcid="https://orcid.org/0009-0007-7133-1404"
-lattes="https://lattes.cnpq.br/0601908903616454" > }}
+lattes="https://lattes.cnpq.br/0601908903616454" >}}
 
 {{< profile
 image="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K1193019T3"
 name="Cecília Pereira Coutinho"
 position="BSc Student"
 description="Searching for low-metallicity dwarf galaxies in the S-PLUS survey."
-lattes="http://lattes.cnpq.br/0735358372203222" > }}
+lattes="http://lattes.cnpq.br/0735358372203222" >}}
 
 {{< profile
 image="https://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K1144007J7"
 name="Lucas Silva de Souza"
 position="BSc Student"
 description="Star formation activity of dwarf galaxies with the ASKAP telescope"
-lattes="https://lattes.cnpq.br/9385844526550776" > }}
+lattes="https://lattes.cnpq.br/9385844526550776" >}}
 
 </div>
 </div>
