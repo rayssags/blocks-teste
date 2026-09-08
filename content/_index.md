@@ -18,7 +18,6 @@ name="Marco Grossi"
 description="(description)"
 orcid="https://orcid.org/0000-0003-4675-3246"
 lattes="http://lattes.cnpq.br/5045749106134155"
-
 > }}
 
 {{< profile
@@ -27,7 +26,6 @@ name="Denise R Gonçalves"
 description="(description)"
 orcid="https://orcid.org/0000-0001-9388-7146"
 lattes="http://lattes.cnpq.br/3999930062282877"
-
 > }}
 
 </div>
@@ -44,7 +42,6 @@ description="Evolution of dwarf galaxies in low-density environments."
 orcid="https://orcid.org/0000-0003-0634-7710"
 lattes="http://lattes.cnpq.br/7456987747174994"
 website="https://rayssags.github.io"
-
 > }}
 
 {{< profile
@@ -53,7 +50,6 @@ name="Raimundo José Ferreira Filho"
 position="PhD Student"
 description="The relation between globular clusters and the dark matter halo of dwarf galaxies."
 lattes="https://lattes.cnpq.br/3768018041447676"
-
 > }}
 
 </div>
@@ -67,7 +63,6 @@ position="BSc Student"
 description="Intermediate black holes in low-mass galaxies of the MaNGA survey."
 orcid="https://orcid.org/0009-0007-7133-1404"
 lattes="https://lattes.cnpq.br/0601908903616454"
-
 > }}
 
 {{< profile
@@ -76,7 +71,6 @@ name="Cecília Pereira Coutinho"
 position="BSc Student"
 description="Searching for low-metallicity dwarf galaxies in the S-PLUS survey."
 lattes="http://lattes.cnpq.br/0735358372203222"
-
 > }}
 
 {{< profile
@@ -85,9 +79,7 @@ name="Lucas Silva de Souza"
 position="BSc Student"
 description="Star formation activity of dwarf galaxies with the ASKAP telescope"
 lattes="https://lattes.cnpq.br/9385844526550776"
-
 > }}
 
 </div>
-
 </div>
