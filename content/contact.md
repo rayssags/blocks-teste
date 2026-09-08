@@ -23,7 +23,6 @@ title: "Contact"
     margin-top: 40px;
     margin-bottom: 50px;
     font-size: 2.2rem; 
-    color: #2c3e50;
     border-bottom: 1px solid #eee; 
     padding-bottom: 20px;
 }
@@ -44,7 +43,6 @@ title: "Contact"
 }
 
 .contact-info h3 {
-    color: #2c3e50;
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 1.4rem;
@@ -69,7 +67,6 @@ title: "Contact"
 .route-button {
     display: inline-block;
     background-color: #f8f9fa;
-    color: #2c3e50;
     border: 1px solid #dcdcdc;
     padding: 10px 20px;
     border-radius: 20px;
@@ -77,12 +74,6 @@ title: "Contact"
     text-decoration: none;
     transition: all 0.2s ease;
     align-self: flex-start; 
-}
-
-.route-button:hover {
-    background-color: #2c3e50;
-    color: #fff;
-    border-color: #2c3e50;
 }
 
 .post > h1 { display: none !important; }
