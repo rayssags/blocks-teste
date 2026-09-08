@@ -25,7 +25,7 @@ researcher="Cecília Pereira Coutinho"
 image="/images/splus.png"
 alt="S-PLUS Analysis"
 reverse="true"
-caption="Left: S-PLUS multiband images of 2 low-metallicity dwarf galaxy candidates from this work, each covering 67″×67″. Right: examples of SED fitting with CIGALE. The pink circles represent the modeled flux and the white circle the photometric fluxes, obtained from the 12 S-PLUS magnitudes."> }}
+caption="Left: S-PLUS multiband images of 2 low-metallicity dwarf galaxy candidates from this work, each covering 67″×67″. Right: examples of SED fitting with CIGALE. The pink circles represent the modeled flux and the white circle the photometric fluxes, obtained from the 12 S-PLUS magnitudes." >}}
 
 We use the DR4 of the S-PLUS to select low-metallicity dwarf galaxy candidates based on a color selection criteria for metal-poor, low-mass and star-forming galaxies.
 
