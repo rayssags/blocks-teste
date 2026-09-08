@@ -1,0 +1,27 @@
+<div class="research-row{{ if .Get "reverse" }} reverse-layout{{ end }}">
+
+    <div class="research-text">
+        <h2>{{ .Get "title" }}</h2>
+        <h3>{{ .Get "researcher" }}</h3>
+
+        {{ .Inner | markdownify }}
+    </div>
+
+    <div class="research-image">
+
+        <div class="image-grid horizontal">
+            <label>
+                <input type="checkbox">
+                <img
+                    src="{{ .Get "image" }}"
+                    alt="{{ .Get "alt" }}">
+            </label>
+        </div>
+
+        <div class="plot-caption">
+            {{ .Get "caption" }}
+        </div>
+
+    </div>
+
+</div>
